@@ -10,7 +10,7 @@ Inspired by [acg-detector](https://github.com/dyweb/acg-detector).
 ```
 $ cd ~/Documents/Alfred.alfredpreferences/workflows/
 $ git clone https://github.com/rudeigerc/alfred-acg-detector.git
-$ cd alfred-icolor
+$ cd alfred-acg-detector
 $ npm install
 ```
 
