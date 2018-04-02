@@ -3,11 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>github.rudeigerc.acg-detector</string>
+	<string>com.rudeigerc.acg-detector</string>
 	<key>category</key>
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
+		<key>160F48D3-C4AF-46C7-B0FD-D0F016D814FF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1C77BD10-7332-4A0B-96A3-CF824536D7FE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>C33083A7-53FD-4415-BAB2-5EB754CC5157</key>
 		<array>
 			<dict>
@@ -22,6 +35,10 @@
 			</dict>
 		</array>
 	</dict>
+	<key>createdby</key>
+	<string>Yuchen Cheng</string>
+	<key>description</key>
+	<string></string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -52,9 +69,9 @@
 				<key>queuemode</key>
 				<integer>2</integer>
 				<key>runningsubtext</key>
-				<string>Searching...</string>
+				<string></string>
 				<key>script</key>
-				<string>./node_modules/.bin/run-node index.js "$1"</string>
+				<string>./node_modules/.bin/run-node index.js "av$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -62,11 +79,11 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>acg-detector</string>
+				<string>Search bilibili</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
@@ -94,15 +111,69 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>sm</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node index.js "sm$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>160F48D3-C4AF-46C7-B0FD-D0F016D814FF</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>160F48D3-C4AF-46C7-B0FD-D0F016D814FF</key>
+		<dict>
+			<key>xpos</key>
+			<integer>130</integer>
+			<key>ypos</key>
+			<integer>160</integer>
+		</dict>
 		<key>1C77BD10-7332-4A0B-96A3-CF824536D7FE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>350</integer>
+			<integer>390</integer>
 			<key>ypos</key>
 			<integer>100</integer>
 		</dict>
@@ -114,5 +185,7 @@
 			<integer>20</integer>
 		</dict>
 	</dict>
+	<key>webaddress</key>
+	<string>https://rudeigerc.github.io</string>
 </dict>
 </plist>
