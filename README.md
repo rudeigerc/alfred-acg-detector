@@ -13,6 +13,8 @@ $ git clone https://github.com/rudeigerc/alfred-acg-detector.git
 $ cd alfred-acg-detector
 $ npm install
 ```
+## Screenshot
+![screenshot](screenshot.png)
 
 *Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
 
