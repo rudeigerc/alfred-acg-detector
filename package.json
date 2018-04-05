@@ -1,9 +1,9 @@
 {
-  "name": "alfred-acg-detector",
+  "name": "alfred-video-detector",
   "version": "0.0.0",
-  "description": "acg-detector",
+  "description": "video-detector",
   "license": "MIT",
-  "repository": "rudeigerc/alfred-acg-detector",
+  "repository": "rudeigerc/alfred-video-detector",
   "author": {
     "name": "rudeigerc",
     "email": "rudeigerc@gmail.com",
